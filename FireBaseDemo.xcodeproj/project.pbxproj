@@ -10,19 +10,19 @@
 		42A027950A5BFABF48E43218 /* Pods_FireBaseDemo_FireBaseDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78432922ACAE742C5D3F3C90 /* Pods_FireBaseDemo_FireBaseDemoUITests.framework */; };
 		607ABA8425A048980091F1ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607ABA8325A048980091F1ED /* AppDelegate.swift */; };
 		607ABA8625A048980091F1ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607ABA8525A048980091F1ED /* SceneDelegate.swift */; };
-		607ABA8825A048980091F1ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607ABA8725A048980091F1ED /* ViewController.swift */; };
 		607ABA8B25A048980091F1ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607ABA8925A048980091F1ED /* Main.storyboard */; };
 		607ABA8D25A048990091F1ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607ABA8C25A048990091F1ED /* Assets.xcassets */; };
 		607ABA9025A048990091F1ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607ABA8E25A048990091F1ED /* LaunchScreen.storyboard */; };
 		607ABA9B25A048990091F1ED /* FireBaseDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607ABA9A25A048990091F1ED /* FireBaseDemoTests.swift */; };
 		607ABAA625A048990091F1ED /* FireBaseDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607ABAA525A048990091F1ED /* FireBaseDemoUITests.swift */; };
 		607ABAD325A04B9C0091F1ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 607ABAD225A04B9C0091F1ED /* GoogleService-Info.plist */; };
-		607ABAFD25A0574F0091F1ED /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607ABAFC25A0574F0091F1ED /* GroceryListTableViewController.swift */; };
 		607ABB0225A0584B0091F1ED /* GorasayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607ABB0125A0584B0091F1ED /* GorasayItem.swift */; };
 		607ABB0725A065590091F1ED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607ABB0625A065590091F1ED /* User.swift */; };
-		607DCF9725A2E0810024F7E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607DCF9625A2E0810024F7E6 /* LoginViewController.swift */; };
-		607DCF9C25A2E0990024F7E6 /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607DCF9B25A2E0990024F7E6 /* OnlineUsersTableViewController.swift */; };
 		6098D01725A464EC003E5417 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6098D01625A464EC003E5417 /* UserProfile.swift */; };
+		609EAE5925A49D54000689CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609EAE5525A49D54000689CB /* LoginViewController.swift */; };
+		609EAE5A25A49D54000689CB /* OnlineUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609EAE5625A49D54000689CB /* OnlineUsersTableViewController.swift */; };
+		609EAE5B25A49D54000689CB /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609EAE5725A49D54000689CB /* GroceryListTableViewController.swift */; };
+		609EAE5C25A49D54000689CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609EAE5825A49D54000689CB /* ViewController.swift */; };
 		A8337275126EF388FDA5E285 /* Pods_FireBaseDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A85C0C64816AD6B5C9FE196 /* Pods_FireBaseDemoTests.framework */; };
 		BB0EC47EF407A712FDD30BDB /* Pods_FireBaseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615F67F981FB0898BC642905 /* Pods_FireBaseDemo.framework */; };
 /* End PBXBuildFile section */
@@ -49,7 +49,6 @@
 		607ABA8025A048980091F1ED /* FireBaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireBaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607ABA8325A048980091F1ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607ABA8525A048980091F1ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		607ABA8725A048980091F1ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607ABA8A25A048980091F1ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607ABA8C25A048990091F1ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		607ABA8F25A048990091F1ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,12 +60,13 @@
 		607ABAA525A048990091F1ED /* FireBaseDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseDemoUITests.swift; sourceTree = "<group>"; };
 		607ABAA725A048990091F1ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607ABAD225A04B9C0091F1ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		607ABAFC25A0574F0091F1ED /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
 		607ABB0125A0584B0091F1ED /* GorasayItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorasayItem.swift; sourceTree = "<group>"; };
 		607ABB0625A065590091F1ED /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		607DCF9625A2E0810024F7E6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		607DCF9B25A2E0990024F7E6 /* OnlineUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUsersTableViewController.swift; sourceTree = "<group>"; };
 		6098D01625A464EC003E5417 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		609EAE5525A49D54000689CB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		609EAE5625A49D54000689CB /* OnlineUsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineUsersTableViewController.swift; sourceTree = "<group>"; };
+		609EAE5725A49D54000689CB /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		609EAE5825A49D54000689CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		615F67F981FB0898BC642905 /* Pods_FireBaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78432922ACAE742C5D3F3C90 /* Pods_FireBaseDemo_FireBaseDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseDemo_FireBaseDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A85C0C64816AD6B5C9FE196 /* Pods_FireBaseDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,10 +174,10 @@
 		607DCFAC25A32DDF0024F7E6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				607ABA8725A048980091F1ED /* ViewController.swift */,
-				607ABAFC25A0574F0091F1ED /* GroceryListTableViewController.swift */,
-				607DCF9625A2E0810024F7E6 /* LoginViewController.swift */,
-				607DCF9B25A2E0990024F7E6 /* OnlineUsersTableViewController.swift */,
+				609EAE5725A49D54000689CB /* GroceryListTableViewController.swift */,
+				609EAE5525A49D54000689CB /* LoginViewController.swift */,
+				609EAE5625A49D54000689CB /* OnlineUsersTableViewController.swift */,
+				609EAE5825A49D54000689CB /* ViewController.swift */,
 			);
 			name = Controller;
 			path = ..;
@@ -445,13 +445,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607DCF9725A2E0810024F7E6 /* LoginViewController.swift in Sources */,
-				607ABA8825A048980091F1ED /* ViewController.swift in Sources */,
-				607ABAFD25A0574F0091F1ED /* GroceryListTableViewController.swift in Sources */,
+				609EAE5925A49D54000689CB /* LoginViewController.swift in Sources */,
 				607ABB0725A065590091F1ED /* User.swift in Sources */,
 				607ABA8425A048980091F1ED /* AppDelegate.swift in Sources */,
-				607DCF9C25A2E0990024F7E6 /* OnlineUsersTableViewController.swift in Sources */,
+				609EAE5C25A49D54000689CB /* ViewController.swift in Sources */,
 				607ABA8625A048980091F1ED /* SceneDelegate.swift in Sources */,
+				609EAE5A25A49D54000689CB /* OnlineUsersTableViewController.swift in Sources */,
+				609EAE5B25A49D54000689CB /* GroceryListTableViewController.swift in Sources */,
 				607ABB0225A0584B0091F1ED /* GorasayItem.swift in Sources */,
 				6098D01725A464EC003E5417 /* UserProfile.swift in Sources */,
 			);
